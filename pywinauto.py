@@ -22,7 +22,7 @@ dlg['파일(F)'].select()
 dlg['새 파일(N)\tCtrl+N'].select()
 # dlg.print_control_identifiers() # 노트패드의 컨트롤 요소를 트리로 모두 출력
 
-dlg['Pane'].type_keys("Hello pywinauto!\n\t It’s a sample text^A",
+dlg['Pane'].type_keys("Test pywinauto!\n\t It’s a sample text^A",
                         with_spaces=True, # 띄어쓰기 허용
                         with_newlines=True, # \n 개행 허용
                         pause=0.1, # 0.1초마다 타이핑
